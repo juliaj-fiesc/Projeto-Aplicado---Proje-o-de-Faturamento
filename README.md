@@ -10,9 +10,8 @@ Alunos: Adriano Maluf Teixeira, Cristina Aurich, Eliane Nunes da Silva, Eliane N
 Este repositório reúne o material desenvolvido no Projeto Aplicado do curso de Ciência de Dados e Inteligência Artificial.
 O objetivo principal é analisar dados históricos de faturamento do Sistema FIESC e desenvolver duas soluções:
 
-Função em Python para distribuição mensal de faturamento, baseada no comportamento real dos anos anteriores.
-
-Modelo preditivo de faturamento utilizando Deep Learning (LSTM), considerando a natureza temporal e sazonal dos dados.
+- Função em Python para distribuição mensal de faturamento, baseada no comportamento real dos anos anteriores.
+- Modelo preditivo de faturamento utilizando Deep Learning (LSTM), considerando a natureza temporal e sazonal dos dados.
 
 **Objetivos do Trabalho**
 
