@@ -30,9 +30,7 @@ Este repositório reúne o material desenvolvido no Projeto Aplicado do curso de
 **Metodologia Utilizada**
 1. Entendimento dos Dados
 
-Foram utilizados dados de faturamento do SESI, SENAI e IEL (2022–2025), incluindo:
-
-Regionais, Grupos de negócio, Categorias, Datas e valores financeiros.
+Foram utilizados dados de faturamento do SESI, SENAI e IEL (2022–2025), incluindo: Regionais, Grupos de negócio, Categorias, Datas e valores financeiros.
 
 Realizaram-se:
 
@@ -60,59 +58,54 @@ Essa função substitui métodos manuais realizados em planilhas, trazendo mais 
 
 3. Modelo Preditivo (LSTM)
 
-Por que LSTM?
+- Por que LSTM?
 Por ser um modelo adequado para séries temporais, capturando tendências, dependências e sazonalidades.
 
 Principais etapas:
 
-Agrupamento e interpolação de valores faltantes,
+- Agrupamento e interpolação de valores faltantes,
 
-Normalização com RobustScaler,
+- Normalização com RobustScaler,
 
-Criação de janelas temporais (TimeSplitter),
+- Criação de janelas temporais (TimeSplitter),
 
-Arquitetura com 3 camadas LSTM + camadas densas,
+- Arquitetura com 3 camadas LSTM + camadas densas,
 
-Treinamento por 900 épocas e validação cruzada,
+- Treinamento por 900 épocas,
 
-Avaliação com MAE, MAPE e R².
+- Avaliação com MAE, MAPE e R².
 
 Resultados:
 
-MAE: ~39 mil
+- MAE: ~39 mil
 
-MAPE: 9,25% (excelente para previsão financeira)
+- MAPE: 9,25% (excelente para previsão financeira)
 
-R²: 0,9979 (alto poder explicativo)
+- R²: 0,9979 (alto poder explicativo)
 
 O modelo conseguiu capturar picos sazonais (fev/jul) e gerar previsões consistentes.
 
 Tecnologias Utilizadas
 
-Python 3.x
+- Python 3.x
 
-Pandas
+- Pandas
 
-NumPy
+- NumPy
 
-Matplotlib
+- Matplotlib
 
-Scikit-learn
+- Scikit-learn
 
-TensorFlow / Keras
+- TensorFlow / Keras
 
-Google Colab
+- Google Colab
 
-Widgets interativos (ipywidgets)
+- Widgets interativos (ipywidgets)
 
 Possíveis Melhorias Futuras
 
-Treinamento com séries mais longas (pré-2022);
+- Treinamento com séries mais longas;
 
-Inclusão de variáveis externas (macro, investimentos, eventos);
+- Teste de modelos ARIMA e regressão;
 
-Teste de modelos ARIMA e regressão;
-
-Deploy em aplicação web (Streamlit/Flask);
-
-Automação da ingestão de dados.
