@@ -11,26 +11,20 @@ Alunos: Adriano Maluf Teixeira, Cristina Aurich, Eliane Nunes da Silva, Eliane N
 
 **Sobre o Projeto**
 
-Este repositório reúne o material desenvolvido no Projeto Aplicado do curso de Ciência de Dados e Inteligência Artificial.
-O objetivo principal é analisar dados históricos de faturamento do Sistema FIESC e desenvolver duas soluções:
-
-- Função em Python para distribuição mensal de faturamento, baseada no comportamento real dos anos anteriores.
-- Modelo preditivo de faturamento utilizando Deep Learning (LSTM), considerando a natureza temporal e sazonal dos dados.
+Este repositório reúne o material desenvolvido no Projeto Aplicado do curso de Ciência de Dados e Inteligência Artificial. O propósito do trabalho é aplicar técnicas de análise de dados e métodos estatísticos para apoiar a tomada de decisão dos gestores dos negócios.
 
 **Objetivos do Trabalho**
 
-- Analisar o comportamento histórico do faturamento por regional, negócio e período;
-- Construir uma ferramenta analítica para projetar metas mensais;
-- Desenvolver um modelo preditivo capaz de estimar valores futuros de faturamento;
-- Auxiliar o planejamento estratégico e a tomada de decisão dos gestores.
+- Função em Python para distribuição mensal de faturamento, baseada no comportamento real dos anos anteriores.
+- Modelo preditivo de faturamento utilizando Deep Learning (LSTM), considerando a natureza temporal e sazonal dos dados.
 
 **Estrutura do Repositório**
 /
 ├── Projeto_Aplicado.ipynb     # Notebook principal com análises, função e modelo LSTM
 ├── dados_faturamento.xlsx     # Dataset utilizado no projeto
-├── Municipios_por_regionalVP.xlsx
+├── Municipios_por_regionalVP.xlsx #Planilha com os municípios por regional
 ├── geojs-42-mun.json          # Base geográfica para mapas
-├── Relatório Final Projeto Aplicado.pdf
+├── Relatório Final Projeto Aplicado.pdf #Relatório em PDF do projeto aplicado
 └── README.md                  # Este arquivo
 
 **Metodologia Utilizada**
@@ -38,37 +32,29 @@ O objetivo principal é analisar dados históricos de faturamento do Sistema FIE
 
 Foram utilizados dados de faturamento do SESI, SENAI e IEL (2022–2025), incluindo:
 
-Regionais administrativas,
-
-Grupos de negócio,
-
-Categorias,
-
-Filiais,
-
-Datas e valores financeiros.
+Regionais, Grupos de negócio, Categorias, Datas e valores financeiros.
 
 Realizaram-se:
 
-Tratamento de tipos,
+- Tratamento de tipos,
 
-Verificação de nulos e duplicados,
+- Verificação de dados nulos e duplicados,
 
-Criação de colunas derivadas (mês/ano),
+- Criação de colunas derivadas (mês/ano),
 
-Análises gráficas exploratórias.
+- Análises gráficas exploratórias.
 
 2. Função para Distribuição Mensal do Faturamento
 
 A função:
 
-Calcula o peso percentual de cada mês com base nos anos anteriores;
+- Calcula o peso percentual de cada mês com base nos anos anteriores;
 
-Distribui a meta anual proporcionalmente;
+- Distribui a meta anual proporcionalmente;
 
-Gera tabela consolidada + gráfico dinâmico;
+- Gera tabela consolidada + gráfico dinâmico;
 
-Permite filtros por regional, grupo de negócio e negócio.
+- Permite filtros por regional, grupo de negócio e negócio.
 
 Essa função substitui métodos manuais realizados em planilhas, trazendo mais agilidade, confiabilidade e padronização.
 
