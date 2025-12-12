@@ -19,13 +19,10 @@ O objetivo principal é analisar dados históricos de faturamento do Sistema FIE
 
 **Objetivos do Trabalho**
 
-Analisar o comportamento histórico do faturamento por regional, negócio e período;
-
-Construir uma ferramenta analítica para projetar metas mensais;
-
-Desenvolver um modelo preditivo capaz de estimar valores futuros de faturamento;
-
-Auxiliar o planejamento estratégico e a tomada de decisão dos gestores.
+- Analisar o comportamento histórico do faturamento por regional, negócio e período;
+- Construir uma ferramenta analítica para projetar metas mensais;
+- Desenvolver um modelo preditivo capaz de estimar valores futuros de faturamento;
+- Auxiliar o planejamento estratégico e a tomada de decisão dos gestores.
 
 **Estrutura do Repositório**
 /
